@@ -34,22 +34,21 @@ body {
   display: flex;
   flex-direction: row;
   gap: 20px;
-  text-decoration: none;
+    list-style-type: none;
 }
 
-.nav--container ul {
-  list-style-type: none;
-}
 
 .nav--container a {
   color: aliceblue;
   text-decoration: none;
 }
 
-.nav--container a:hover{
-    transform: scale(1.15);
-  color:  rgb(0, 162, 255);
-  
+.nav--container li:hover{
+  transform: scale(1.15);
+}
+
+.nav--container a {
+    color:  rgb(0, 162, 255);
 }
 /*Content Conteiner----------------------------------------------------------*/
 
