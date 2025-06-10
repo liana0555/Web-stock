@@ -23,6 +23,13 @@ body {
   align-items: center;
 }
 
+.logo--container img {
+  height: 50px;
+  width: auto;
+  margin-right: 15px;
+}
+
+
 .nav--container {
   display: flex;
   flex-direction: row;
@@ -48,7 +55,7 @@ body {
 }
 
 .nav--container a {
-    color:  rgb(0, 162, 255);
+    color:  rgb(255, 255, 255);
 }
 /*Content Conteiner----------------------------------------------------------*/
 
