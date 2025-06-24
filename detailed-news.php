@@ -35,6 +35,13 @@
     .text-muted {
       color: #aaa !important;
     }
+    .date-text {
+        top: -10px;
+        right: 30%; /* adjust this value to move left or right */
+        font-size: 24-px;
+        position: absolute;
+    }
+
   </style>
 </head>
 <body>
@@ -68,7 +75,7 @@
 <div class="container mt-5">
   <div class="position-relative text-center mb-4">
     <h1 class="m-0 d-inline-block">Stocks Down</h1>
-    <p class="m-0 text-muted position-absolute" style="top: -10px; right: 35%; font-size: 0.9rem;">01.05.2025</p>
+    <p class="m-0 text-white position-absolute date-text">01.05.2025</p>
   </div>
 
   <div class="card" style="background-color: black;">
