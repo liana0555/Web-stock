@@ -57,7 +57,7 @@
     <?php for ($i = 0; $i < 8; $i++): ?>
     <div class="col">
       <div class="card h-100 bg-black text-white border-light p-3">
-        <a href="detailed-news.php" class="text-decoration-none text-white">
+        <a href="detailed-news.html" class="text-decoration-none text-white">
           <img src="assets/news1.jpeg" class="card-img-top" alt="News">
           <div class="card-body">
             <h5 class="card-title" style="font-size: 1.5rem; margin-bottom: 0.5rem;">Alguna Noticia</h5>
