@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Stocks Down</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #000;
+      color: #fff;
+    }
+    .navbar {
+      border-bottom: 2px solid #00e1ff;
+    }
+    .navbar-nav .nav-link {
+        color: white !important;
+    }
+    .navbar-brand {
+        color: white !important;
+    }
+
+    .card {
+      background-color: #1a1a1a;
+      border: 1px solid #444;
+      padding: 15px;
+    }
+    .card img {
+        max-width: 500px;   
+        max-height: 500px;  
+        object-fit: cover;  
+        width: 100%;        
+        height: auto;
+    }
+    .text-muted {
+      color: #aaa !important;
+    }
+    .date-text {
+        top: -10px;
+        right: 30%; /* adjust this value to move left or right */
+        font-size: 24-px;
+        position: absolute;
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-black px-4 ">
+    <a class="navbar-brand text-white" href="#">
+      <svg width="40" height="40" viewBox="0 0 75 75" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M10 0C4.47715 0 0 4.47715 0 10V35C0 35.5523 0.447716 36 1 36H13.2678C13.652 36 14.0023 35.7798 14.1689 35.4336L22.1977 18.7459C22.9245 17.2354 25.0755 17.2354 25.8023 18.7459L33.8311 35.4336C33.9977 35.7798 34.348 36 34.7322 36H37.8621C38.5989 36 39.0827 35.2303 38.7633 34.5664L36.1415 29.1171C35.5026 27.7893 36.4702 26.25 37.9437 26.25H64.0563C65.5298 26.25 66.4974 27.7893 65.8585 29.1171L63.2367 34.5664C62.9173 35.2304 63.4011 36 64.1378 36H74C74.5523 36 75 35.5523 75 35V10C75 4.47715 70.5229 0 65 0H10ZM10.8621 39C11.5989 39 12.0827 39.7696 11.7633 40.4336L9.14146 45.8829C8.50262 47.2107 9.47022 48.75 10.9437 48.75H37.0563C38.5298 48.75 39.4974 47.2107 38.8585 45.8829L36.2367 40.4336C35.9173 39.7696 36.4011 39 37.1379 39H40.2678C40.652 39 41.0023 39.2202 41.1689 39.5664L49.1977 56.2541C49.9245 57.7646 52.0755 57.7646 52.8023 56.2541L60.8311 39.5664C60.9977 39.2202 61.348 39 61.7322 39H74C74.5523 39 75 39.4477 75 40V65C75 70.5229 70.5229 75 65 75H10C4.47715 75 0 70.5229 0 65V40C0 39.4477 0.447715 39 1 39H10.8621Z" fill="#497C9B"/>
+        </svg>
+         <b>Home</b>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto align-items-center">
+        <li class="nav-item"><a class="nav-link text-white" href="#">News</a></li>
+        <li class="nav-item"><a class="nav-link active text-white" href="#">Search</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#">Portfolio</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#">Settings</a></li>
+        <li class="nav-item ms-3">
+          <img src="assets/profile.jpeg" alt="Profile" width="35" height="35" class="rounded-circle border border-light">
+        </li>
+      </ul>
+    </div>
+  </nav>
+  
+  
+   <!-- Main Content -->
+<div class="container mt-5">
+  <div class="position-relative text-center mb-4">
+    <h1 class="m-0 d-inline-block">Stocks Down</h1>
+    <p class="m-0 text-white position-absolute date-text">01.05.2025</p>
+  </div>
+
+  <div class="card" style="background-color: black;">
+    <div class="row g-0 align-items-start">
+      <div class="col-md-4">
+        <img src="assets/news1.jpeg" alt="Stocks Down" class="img-fluid rounded-start w-100 h-100">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body text-white">
+          <p class="card-text" style="font-size: 1.2rem;">
+          The last couple of days has had un expected situations on the stock market where all of the stocks crash over night, with no window to react, this situation has left a lot of people perplex on what to do moving forward. Since now most investors are in the negative. Their is yet to be any assurance of being able to recuperate the losses investors have had to deal with. 
+          This is one of the most unexpected events whe have had in the stock market. We will be keeping everyone UpToDate with new information coming from this situation at hand.The last couple of days has had un expected situations
+          </p>
+          <p class="card-text" style="font-size: 1.2rem;">
+          The last couple of days has had un expected situations on the stock market where all of the stocks crash over night, with no window to react, this situation has left a lot of people perplex on what to do moving forward. Since now most investors are in the negative. Their is yet to be any assurance of being able to recuperate the losses investors have had to deal with. 
+          This is one of the most unexpected events whe have had in the stock market. We will be keeping everyone UpToDate with new information coming from this situation at hand.The last couple of days has had un expected situations.
+          </p>
+        </div>
+      </div>
+      <div class="col-12 text-white">
+        <p class="card-text" style="font-size: 1.2rem;">
+            The last couple of days has had un expected situations on the stock market where all of the stocks crash over night, with no window to react, this situation has left a lot of people perplex on what to do moving forward. Since now most investors are in the negative. Their is yet to be any assurance of being able to recuperate the losses investors have had to deal with. 
+            This is one of the most unexpected events whe have had in the stock market. We will be keeping everyone UpToDate with new information coming from this situation at hand.
+        </p>
+    </div>
+  </div>
+</div> 
+
+
+
