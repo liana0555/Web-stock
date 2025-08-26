@@ -1,0 +1,103 @@
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 30px;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  width: 230px;
+  
+  
+}
+
+input {
+  background-color: black;
+  border: 1.5px solid #22EFDE;
+  color: #22EFDE;
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  border-radius: 6px;
+  padding: 6px 10px;
+  outline: none;
+  text-align: center;
+}
+
+
+input::placeholder {
+  color: #22EFDE;
+  opacity: 0.8;
+  font-family: 'Roboto', sans-serif;
+  font-size: 19px;
+}
+
+
+.panel.right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.panel.right h1 {
+  font-size: 36px;
+  font-family: 'Koulen', sans-serif;
+  text-align: center;
+  margin-bottom: 10px;
+  color: white;
+}
+
+input[type="text"].centered,
+.row input.centered {
+  text-align: center;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 260px;
+}
+
+.row input {
+  width: 115px;
+  text-align: left; 
+}
+
+.row input.small {
+  width: 65px;
+  text-align: center;
+}
+
+.row input.medium {
+  width: 70px;
+  text-align: center;
+}
+
+
+input[type="email"],
+input[type="password"] {
+  text-align: left;
+}
+
+.form-button {
+  margin-top: 20px;
+  width: 230px;
+  padding: 14px 0;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Inter', sans-serif;
+  border-radius: 8px;
+  background-color: #497C9B;
+  color: black;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.form-button:hover {
+  opacity: 0.9;
+}

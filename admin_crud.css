@@ -1,0 +1,130 @@
+
+ body {
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  color: #22EFDE;
+  background: linear-gradient(to bottom, #3b8da6, #00e0c6);
+}
+
+
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 60px);
+}
+.form-title {
+    text-align: center;
+  margin-top: -20px; 
+  margin-bottom: 10px;
+}
+
+
+.form-box {
+  background-color: #000;
+  padding: 3rem;
+  border-radius: 2;
+  width: 420px;     
+  min-height: 600px; 
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 20px rgba(0, 224, 198, 0.2);
+}
+
+.form-box h2 {
+   text-align: center;
+
+  margin-bottom: 3rem;
+  font-weight: 700;
+  font-size: 28px; 
+  color: white;
+  letter-spacing: 1px; 
+  font-family: 'Inter', sans-serif; 
+}
+
+.form-box input,
+.form-box select,
+.form-box textarea {
+  width: 100%;
+  height: 30px;
+  background: transparent;
+  border: 1.5px solid #3CAEC5;
+  color: #3CAEC5;
+  font-size: 16px;
+   font-weight: 540;
+  padding: 4px 10px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.form-box input::placeholder,
+.form-box textarea::placeholder {
+ color: #3CAEC5;
+  opacity: 1;
+}
+
+
+.form-box .date-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.form-box .date-group input {
+  flex: 1;
+  height: 30px;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 8px;
+  padding: 8px 0;
+}
+
+
+.form-box textarea {
+  height: 250px;
+  resize: none;
+  padding: 10px 12px;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+
+.form-box button {
+  margin-top: 10px;
+  padding: 6px 16px;
+  background-color: #497C9B;
+  color: black;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 20px;
+  width: fit-content;
+  align-self: center;
+  transition: background-color 0.3s ease;
+}
+.form-box select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' fill='%233CAEC5'%3E%3Cpath d='M1 4l6 6 6-6' stroke='%233CAEC5' stroke-width='2' fill='none'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 25px;
+  padding-right: 30px; 
+}
+
+
+.form-box button:hover {
+  background-color: #5ea2bf;
+}
+
+  .navbar {
+      border-bottom: 2px solid #00e1ff;
+    }
